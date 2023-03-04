@@ -11,18 +11,17 @@ const ProductList = ({ products }) => {
   // })
   // console.log(prod)
 
-  const prods = products.map((product) => {
-    const content = `${product.title} - ${product.description}`
-    const price = `${product.variants[0].price.amount}`
-    const img = `${product.images[0].src}`
-    return (
-      <li>{ }</li>
+  // const prods = products.map((product) => {
+  //   const content = `${product.title} - ${product.description}`
+  //   const price = `${product.variants[0].price.amount}`
+  //   const img = `${product.images[0].src}`
+  //   return (
+  //     <li>{  content }</li>
       
-    )
-
-
-  })
-  console.log(prods)
+  //   )
+  // }  
+  // )
+  // console.log(prods)
 
   return (
     <>
